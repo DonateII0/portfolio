@@ -73,7 +73,30 @@ a:hover {
 .hero {
     padding: 5em;
     display: flex;
-    width: 100%;
     justify-content: center;
     align-items: center;
+}
+
+.hero>div {
+    width: 50%;
+}
+
+.hero__text>h1 {
+    margin: 1em 0;
+}
+
+.hero__text>p {
+    margin: 1em 0;
+}
+
+button {
+    border-radius: 50px;
+    border: none;
+    padding: 15px;
+    margin: 1em 0;
+    padding: 1em;
+    font-size: 0.75rem;
+    font-weight: bold;
+    background: rgb(19, 173, 199);
+    background: linear-gradient(90deg, rgba(19, 173, 199, 1) 0%, rgba(105, 120, 209, 1) 47%, rgba(148, 93, 214, 1) 100%);
 }
