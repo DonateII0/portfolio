@@ -1,5 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #0F1624;
+    color: #FFFFFF;
+}
+
+.nav__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+    box-shadow: 8px 8px 24px -16px rgba(66, 68, 90, 1);
+}
+
+.menu>ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: White;
+    text-decoration: none;
+}
+
+a:hover {
+    background: -webkit-linear-gradient(#13ADC7, #6978D1, #945DD6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    text-shadow: 3px 1px 6px rgba(148, 93, 214, 1);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    background: -webkit-linear-gradient(#13ADC7, #6978D1, #945DD6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav__social__icons {
+    display: flex;
+    gap: 10px;
+    font-size: 1.3em;
+}
+
+.fa-brands:hover {
+    cursor: pointer;
+    background: -webkit-linear-gradient(#13ADC7, #6978D1, #945DD6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.1em;
+    box-shadow: 3px 1px 6px rgba(148, 93, 214, 1);
+}
+
+.hero {
+    padding: 5em;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
