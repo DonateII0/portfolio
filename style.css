@@ -75,6 +75,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 700px;
 }
 
 .hero>div {
@@ -102,14 +103,29 @@ button {
 }
 
 .projects {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .projects__card {
-    width: 5em;
-    border: 1px solid wheat;
-    display: flex;
-    flex-direction: column;
-    flex: 1;
+    background-color: #0F1624;
+    padding: 3em;
+    margin: 0 1em;
+    border-radius: 0 20px 0 20px;
+    box-shadow: 0px 0px 8px rgba(116, 114, 114, 0.534);
+    transition: transform 0.2s;
 }
+
+.projects__card>img {
+    width: 400px;
+}
+
+.projects__card:hover {
+    transform: translateY(-5px);
+    background-color: #232c3f;
+}
+
+.
